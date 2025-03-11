@@ -7,5 +7,5 @@ a. Function 1 will ask users to input thier dietary restricction/preferences.
 b. Function 2 will ask for their location - with this will come if they are walking/taking transportation. Both will ask how far they are willing to travel, mile wise, but mostly minutes wise as that's how I think of distance, usually.
 
 c. Function 3 will include budget. How much they are willing to spend on a meal. If it is only one person, then it will be how much that
-user is willing to spend. If it is 2+ people, it will take into account how much they are willing to spend as a whole group, paying together, or each person's budget. 
-*will for sure need more functions
+user is willing to spend. If it is 2+ people, it will take into account how much they are willing to spend as a whole group, paying together, or each person's budget.
+
