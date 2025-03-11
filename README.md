@@ -1,6 +1,6 @@
 # BCOG200-Final-Project-
 
-1) For my final project, I plan on making some sort of application that allows users to view local restaurants and minimize the stress of
+3) For my final project, I plan on making some sort of application that allows users to view local restaurants and minimize the stress of
 finding a place to eat. While there are thigns like Google, and probably other apps that do similar things, I am genuinely not aware of
 any, and Google can be a bit finnicky when determining a place to eat. Users will be allowed to input things like dietary restrictions,
 budget, walking distance/ability to travel, expected wait time/how busy a place might be, as well as exlcuding things such as fast food
