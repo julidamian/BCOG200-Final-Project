@@ -1,4 +1,4 @@
-# BCOG200-Final-Project-
+# BCOG200-Final-Project
 
 For my final project, I plan on making some sort of application that allows users to view local restaurants and minimize the stress of finding a place to eat. While there are thigns like Google, and probably other apps that do similar things, I am genuinely not aware of any, and Google can be a bit finnicky when determining a place to eat. Users will be allowed to input things like dietary restrictions, budget, walking distance/ability to travel, expected wait time/how busy a place might be, as well as exlcuding things such as fast food chains if useres would like that. Furthermore, it would have the option to randomly select a place based on these preferences if the user cannot decide or rank them based on which input the user feels is most important to them.
 
