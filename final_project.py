@@ -29,3 +29,11 @@ def coloring():
     everything runs correctly. As you can see, I just thought of this idea after not really liking my
     first idea.
     """
+
+    def main():
+        def random_image():
+        def create_color_wheel():
+        def coloring():
+
+    if __name__ == "__main__":
+        main()
