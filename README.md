@@ -1,11 +1,10 @@
 # BCOG200-Final-Project
 
-For my final project, I plan on making some sort of application that allows users to view local restaurants and minimize the stress of finding a place to eat. While there are thigns like Google, and probably other apps that do similar things, I am genuinely not aware of any, and Google can be a bit finnicky when determining a place to eat. Users will be allowed to input things like dietary restrictions, budget, walking distance/ability to travel, expected wait time/how busy a place might be, as well as exlcuding things such as fast food chains if useres would like that. Furthermore, it would have the option to randomly select a place based on these preferences if the user cannot decide or rank them based on which input the user feels is most important to them.
+I decided to change my final project because it did sound a lot like Yelp to me, too (and it felt more boring). For this project, I want to use Turtles to create a coloring book. If users don't know what to color, then they will get the option to randomize a page from my coloring book that they can work with. To make it more complex, I want to let the users be able to upload their own photo. The program will be able to make it into a 2D, lines-only picture that looks like a page out of a coloring book. From there, users will be able to color between the lines. 
 
-a. Function 1 will ask users to input thier dietary restricction/preferences.
+a. Function 1 will ask users to upload a picture of their choice or randomize a page.
 
-b. Function 2 will ask for their location - with this will come if they are walking/taking transportation. Both will ask how far they are willing to travel, mile wise, but mostly minutes wise as that's how I think of distance, usually.
+b. Funcion 2 will go about tracing the image and finding the main shapes that will let it become all black lines that the user can color over. 
 
-c. Function 3 will include budget. How much they are willing to spend on a meal. If it is only one person, then it will be how much that
-user is willing to spend. If it is 2+ people, it will take into account how much they are willing to spend as a whole group, paying together, or each person's budget.
+c. Function 3 will use Turtles to let the user color on the page and make it interactive. 
 
