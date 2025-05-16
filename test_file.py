@@ -1,14 +1,32 @@
-"""
-If I am understanding Test File correctly, I would think that in order for the user to test
-functionality, they would be required to upload a photo to see if that part of my program works.
+#following test from wolfpack demo
+import pytest
+from PIL import Image
+from src.your_module import ImageProcessor
+import os
 
-For the test, I would probably have the user upload with one specific image first, just to get the 
-foundation of the code working. This would be a real image taken by me , most likely.
+def create_image_test(size=(100, 100), color=255):
+  """Monochromatic canvas for testing"""
+  return Image.new("L", size, color)
 
-After that, I could expand to using any image the user wants.
+def test_outline_image_return_image():
+  processor = ImageProcessor()
+  test_image = create_test_image()
+  outline = processor.outline_image(test_image)
 
-To conduct the test for the coloring, I would just use any image I chose to upload to ensure the 
-coloring function worked.
+  assert isinstance(outlined, Image.Image) "should get PIL Image"
+  assert outlined.size == test_image.size, "Outline image size mismatch"
 
-Afterwards, I would check to ensure coloring the image the user uploaded works. 
-"""
+def test_load_image(monkeypatch, top_path):
+  processor = ImageProcessor()
+
+  image = create_test_image()
+  temp_path = tmp_path / "test_image.jpg"
+  image.save(temp_path)
+
+
+  processed = processor.load_image(str(temp_path), max_size=(50, 50))
+
+  assert isinstance(processed, Image,Image)
+  assert processor.original_image.size[0] <= 50
+  assert processor.original_image.mode == "L"
+  
