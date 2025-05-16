@@ -8,6 +8,8 @@ Some files are not necessary for this code to run (such as the src and main.py l
 
 Navigate to your terminal, and follow the given instructions to access the coloring book after unziping it:
 
+<img width="620" alt="Screenshot 2025-05-16 at 4 50 19 PM" src="https://github.com/user-attachments/assets/8aa941e1-e5e7-481f-8906-54857d59934e" />
+
 
 
 
