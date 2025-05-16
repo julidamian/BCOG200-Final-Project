@@ -13,7 +13,7 @@ def test_outline_image_return_image():
   test_image = create_test_image()
   outline = processor.outline_image(test_image)
 
-  assert isinstance(outlined, Image.Image), "should get PIL Image"
+  assert isinstance(outline, Image.Image), "should get PIL Image"
   assert outlined.size == test_image.size, "Outline image size mismatch"
 
 def test_load_image(tmp_path):
