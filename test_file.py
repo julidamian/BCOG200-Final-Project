@@ -4,7 +4,7 @@ from PIL import Image
 from src.your_module import ImageProcessor
 import os
 
-def create_image_test(size=(100, 100), color=255):
+def create_test_image(size=(100, 100), color=255):
   """Monochromatic canvas for testing"""
   return Image.new("L", size, color)
 
@@ -13,10 +13,10 @@ def test_outline_image_return_image():
   test_image = create_test_image()
   outline = processor.outline_image(test_image)
 
-  assert isinstance(outlined, Image.Image) "should get PIL Image"
+  assert isinstance(outlined, Image.Image), "should get PIL Image"
   assert outlined.size == test_image.size, "Outline image size mismatch"
 
-def test_load_image(monkeypatch, top_path):
+def test_load_image(tmp_path):
   processor = ImageProcessor()
 
   image = create_test_image()
@@ -26,7 +26,7 @@ def test_load_image(monkeypatch, top_path):
 
   processed = processor.load_image(str(temp_path), max_size=(50, 50))
 
-  assert isinstance(processed, Image,Image)
+  assert isinstance(processed, Image.Image)
   assert processor.original_image.size[0] <= 50
   assert processor.original_image.mode == "L"
   
