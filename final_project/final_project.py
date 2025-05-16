@@ -76,7 +76,7 @@ class Display:
         self.brush_slider.set(self.brush_size)
         self.brush_slider.pack(side="left", padx = 10)
         
-        self.eraser_button = tk.Button(self.interface_frame, text="Eraser", command=lambda: self.set_color(self.canvas_frame.cget("white")))
+        self.eraser_button = tk.Button(self.interface_frame, text="Eraser", command=lambda: self.set_color("white"))
         self.eraser_button.pack(side="left", padx = 10)
 
         self.save_button = tk.Button(self.interface_frame, text="Save", command=self.save_image)
@@ -117,6 +117,9 @@ class Display:
         color_code = tk.colorchooser.askcolor(title="Choose color :)")[1]
         if color_code:
             self.color = color_code
+
+    def set_color(self, new_color):
+        self.color = new_color
 
     def paint(self, event):
         self.brush_size = self.brush_slider.get()
