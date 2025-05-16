@@ -76,7 +76,7 @@ class Display:
         self.brush_slider.set(self.brush_size)
         self.brush_slider.pack(side="left", padx = 10)
         
-        self.eraser_button = tk.Button(self.interface_frame, text="Eraser", command=lambda: self.set_color(self.canvas_frame.cget("bg")))
+        self.eraser_button = tk.Button(self.interface_frame, text="Eraser", command=lambda: self.set_color(self.canvas_frame.cget("white")))
         self.eraser_button.pack(side="left", padx = 10)
 
         self.save_button = tk.Button(self.interface_frame, text="Save", command=self.save_image)
