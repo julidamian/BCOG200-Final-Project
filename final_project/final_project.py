@@ -18,7 +18,6 @@ class ImageProcessor:
     #getting image that is from user input
 
     def load_image(self, filepath, max_size=(800,600)): #resizing image to fit the screen
-        print(f"Loading image from: {filepath}")
         image = Image.open(filepath).convert("L") #turning image into something that can be colored in, monochromatic
         image.thumbnail(max_size)
         self.original_image = image
@@ -88,7 +87,6 @@ class Display:
         path = os.path.join("images", filename)
         if os.path.exists(path):
             processed = self.processor.load_image(path)
-            print("Image loaded successfully.")
             if processed:
                 self.display_image(processed)
      
