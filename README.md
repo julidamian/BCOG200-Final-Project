@@ -17,4 +17,7 @@ You can even color on the blank page itself before downloading anything.
 
 Happy coloring!!
 
-# test.py
+# test_file.py
+test_file.py will test the ImageProcessor from final_project to ensure that it is running correctly. Follow these instructions to ensure it passes the tests, as well as following the requirements in requirements.txt:
+<img width="620" alt="Screenshot 2025-05-16 at 4 50 19 PM" src="https://github.com/user-attachments/assets/3b570603-0aed-4b25-a06f-379f00f52a28" />
+
