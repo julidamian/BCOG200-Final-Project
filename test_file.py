@@ -1,7 +1,7 @@
 #following test from wolfpack demo
 import pytest
 from PIL import Image
-import ImageProcessor
+from final_project import ImageProcessor
 import os
 
 def create_test_image(size=(100, 100), color=255):
