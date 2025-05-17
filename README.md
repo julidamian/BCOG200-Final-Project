@@ -1,6 +1,8 @@
 # BCOG200-Final-Project
 
 # Welcome to your own coloring book!
+![Parents-Bluey-Characters-Bluey-18c1c5f291624660b69c830c28ff2468](https://github.com/user-attachments/assets/bd71d4f0-3d44-44e2-8980-5a51a05601bf)
+
 
 In this coloring book, you have five preloaded images to color from. Make sure you download the zip and unzip the folders from the GitHub to access the images necessary to color. 
 
@@ -18,6 +20,6 @@ You can even color on the blank page itself before downloading anything.
 Happy coloring!!
 
 # test_file.py
-test_file.py will test the ImageProcessor from final_project to ensure that it is running correctly. Follow these instructions to ensure it passes the tests, as well as following the requirements in requirements.txt:
-<img width="620" alt="Screenshot 2025-05-16 at 4 50 19 PM" src="https://github.com/user-attachments/assets/590ce304-d0d8-4ffa-af96-3948c1a449fc" />
+test_file.py will test the ImageProcessor from final_project to ensure that it is running correctly. Follow these instructions to ensure it passes the tests, as well a<img width="783" alt="Screenshot 2025-05-16 at 6 55 52 PM" src="https://github.com/user-attachments/assets/b45d4516-52e2-424e-97fa-b3aa2a923e08" />
+s following the requirements in requirements.txt:
 
